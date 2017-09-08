@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping>
+    <class name="com.hand13.soft.domain.Friend" table="firends">
+        <id name="id" type="java.lang.Integer" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="you" column="you_id" type="java.lang.Integer"/>
+        <property name="her" column="her_id" type="java.lang.Integer"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+    
+<hibernate-mapping>
+
+<class 
+    name="com.hand13.soft.domain.Userinfo"
+    table="userinfo"
+>
+
+    <id
+        name="id"
+        type="java.lang.Integer"
+        column="id"
+    >
+        <generator class="identity" />
+    </id>
+
+    <property
+        name="username"
+        type="java.lang.String"
+        column="username"
+        not-null="true"
+        length="30"
+    />
+    <property
+        name="password"
+        type="java.lang.String"
+        column="password"
+        not-null="true"
+        length="30"
+    />
+
+    <property name="permissionId"
+              type="java.lang.Integer"
+              column="permission_id"/>
+  
+
+</class>
+</hibernate-mapping>

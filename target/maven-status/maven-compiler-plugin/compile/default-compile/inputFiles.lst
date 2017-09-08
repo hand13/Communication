@@ -1,0 +1,15 @@
+D:\message\src\main\java\com\hand13\soft\dao\MessageDao.java
+D:\message\src\main\java\com\hand13\soft\dao\FriendDao.java
+D:\message\src\main\java\com\hand13\soft\exception\UserNotExistException.java
+D:\message\src\main\java\com\hand13\soft\service\UserService.java
+D:\message\src\main\java\com\hand13\soft\domain\Userinfo.java
+D:\message\src\main\java\com\hand13\soft\controls\UserControl.java
+D:\message\src\main\java\com\hand13\soft\exception\UserExistdException.java
+D:\message\src\main\java\com\hand13\soft\dao\UserInfoDao.java
+D:\message\src\main\java\com\hand13\soft\domain\Friend.java
+D:\message\src\main\java\com\hand13\soft\domain\Message.java
+D:\message\src\main\java\com\hand13\soft\domain\Permission.java
+D:\message\src\main\java\com\hand13\soft\service\MessageService.java
+D:\message\src\main\java\com\hand13\soft\dao\IdToNameDao.java
+D:\message\src\main\java\com\hand13\soft\dao\PermissionDao.java
+D:\message\src\main\java\com\hand13\soft\domain\FriendIdAndName.java

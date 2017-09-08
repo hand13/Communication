@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+    
+<hibernate-mapping>
+
+<class 
+    name="com.hand13.soft.domain.Message"
+    table="message"
+>
+
+    <id
+        name="id"
+        type="java.lang.Integer"
+        column="id"
+    >
+        <generator class="identity" />
+    </id>
+
+    <property
+        name="message"
+        type="java.lang.String"
+        column="message"
+        not-null="true"
+        length="65535"
+    />
+
+    <property name="userF"
+              type="java.lang.Integer"
+              column="user_id"/>
+
+    <property name="userT"
+              type="java.lang.Integer"
+              column="who_id"/>
+
+    <property name="read"
+              type="java.lang.Boolean"
+              column="readed"/>
+</class>
+</hibernate-mapping>
